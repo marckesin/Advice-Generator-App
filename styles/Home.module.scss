@@ -11,13 +11,13 @@ $background-color: hsl(220, 22%, 16%);
 }
 
 .button {
-  width: 3rem;
-  height: 3rem;
+  width: 3.8rem;
+  height: 3.8rem;
   margin: 0 auto;
   background-color: $neon-green !important;
   position: absolute !important;
-  bottom: -1.5rem;
-  left: 44.5%;
+  bottom: -1.9rem;
+  left: 44%;
 
   &:hover {
     background-color: $neon-green;
@@ -26,10 +26,10 @@ $background-color: hsl(220, 22%, 16%);
 }
 
 .card {
-  width: 26rem;
-  height: 17rem;
+  width: 32rem;
+  height: 21rem;
   border-radius: 0.625rem !important;
-  padding: 2.5rem 2rem 1.5rem;
+  padding: 3rem 2rem 1.5rem;
   text-align: center;
   background-color: $dark-grayish-blue !important;
   display: flex;
@@ -57,18 +57,19 @@ $background-color: hsl(220, 22%, 16%);
 
 .heading {
   color: $light-cyan;
-  font-size: 1.3rem;
+  font-size: 1.75rem;
 }
 
 .id {
   color: $neon-green;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   letter-spacing: 3px;
+  margin-bottom: 1.5rem;
 }
 
 .link {
   text-decoration: none;
-  color: $light-cyan;
+  color: $light-cyan !important;
 }
 
 .main {

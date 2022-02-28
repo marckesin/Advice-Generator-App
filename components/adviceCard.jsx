@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 // Advice card component
 export default function AdviceCard({ slip }) {
   const router = useRouter();
+  const quote = `"${slip.advice}"`;
 
   // Function to refresh the content of the card
   const handleClick = e => {
@@ -16,14 +17,14 @@ export default function AdviceCard({ slip }) {
   return (
     <div className={styles.card}>
       <p className={styles.id}>ADVICE #{slip.id}</p>
-      <h1 className={styles.heading}>{slip.advice}</h1>
+      <h1 className={styles.heading}> {quote} </h1>
       <div className={styles.divider}></div>
       <IconButton className={styles.button} onClick={handleClick}>
         <Image
           priority
           src="/icon-dice.svg"
-          height={20}
-          width={20}
+          height={25}
+          width={25}
           alt="Icon Button"
         />
       </IconButton>
