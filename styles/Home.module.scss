@@ -4,18 +4,28 @@ $grayish-blue: hsl(217, 19%, 38%);
 $dark-grayish-blue: hsl(217, 19%, 24%);
 $background-color: hsl(220, 22%, 16%);
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
 .card {
   width: 25rem;
   height: 16rem;
-  border-radius: 0.625rem;
+  border-radius: 0.625rem !important;
   padding: 2.5rem 2rem;
   text-align: center;
-  background-color: $dark-grayish-blue;
+  background-color: $dark-grayish-blue !important;
 }
 
 .container {
   height: 100vh;
   background-color: $background-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
 }
 
 .heading {
@@ -30,9 +40,7 @@ $background-color: hsl(220, 22%, 16%);
 }
 
 .main {
-  height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,4 +48,7 @@ $background-color: hsl(220, 22%, 16%);
 }
 
 @media (max-width: 600px) {
+  .card {
+    width: 21.5rem;
+  }
 }

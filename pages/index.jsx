@@ -1,5 +1,6 @@
 import AdviceCard from "../components/adviceCard";
 import Container from "@mui/material/Container";
+import Footer from "../components/footer";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
@@ -15,13 +16,10 @@ export default function Home({ slip }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Container>
-        <main className={styles.main}>
-          <AdviceCard slip={slip} />
-        </main>
-      </Container>
-
-      <footer className={styles.footer}></footer>
+      <main className={styles.main}>
+        <AdviceCard slip={slip} />
+      </main>
+      <Footer />
     </div>
   );
 }
