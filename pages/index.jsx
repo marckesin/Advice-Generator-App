@@ -1,5 +1,4 @@
 import AdviceCard from "../components/adviceCard";
-import Container from "@mui/material/Container";
 import Footer from "../components/footer";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
