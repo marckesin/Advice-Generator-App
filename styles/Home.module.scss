@@ -14,8 +14,8 @@ $background-color: hsl(220, 22%, 16%);
   width: 3rem;
   height: 3rem;
   margin: 0 auto;
-  background-color: $neon-green;
-  position: absolute;
+  background-color: $neon-green !important;
+  position: absolute !important;
   bottom: -1.5rem;
   left: 44.5%;
 
@@ -64,6 +64,11 @@ $background-color: hsl(220, 22%, 16%);
   color: $neon-green;
   font-size: 0.6rem;
   letter-spacing: 3px;
+}
+
+.link {
+  text-decoration: none;
+  color: $light-cyan;
 }
 
 .main {
