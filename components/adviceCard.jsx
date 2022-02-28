@@ -7,6 +7,7 @@ import { useRouter } from "next/router";
 export default function AdviceCard({ slip }) {
   const router = useRouter();
 
+  // Function to refresh the content of the card
   const handleClick = e => {
     e.preventDefault();
     router.push(window.location.pathname);
