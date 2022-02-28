@@ -1,24 +1,30 @@
+$light-cyan: hsl(193, 38%, 86%);
+$neon-green: hsl(150, 100%, 66%);
+$grayish-blue: hsl(217, 19%, 38%);
+$dark-grayish-blue: hsl(217, 19%, 24%);
+$background-color: hsl(220, 22%, 16%);
+
 .card {
   width: 25rem;
   height: 16rem;
   border-radius: 0.625rem;
   padding: 2.5rem 2rem;
   text-align: center;
-  background-color: #323a49;
+  background-color: $dark-grayish-blue;
 }
 
 .container {
   height: 100vh;
-  background-color: #202632;
+  background-color: $background-color;
 }
 
 .heading {
-  color: #cee3e9;
+  color: $light-cyan;
   font-size: 1.3rem;
 }
 
 .id {
-  color: #52ffa8;
+  color: $neon-green;
   font-size: 0.6rem;
   letter-spacing: 3px;
 }
@@ -33,4 +39,5 @@
   align-items: center;
 }
 
-/*# sourceMappingURL=Home.module.css.map */
+@media (max-width: 600px) {
+}
