@@ -12,6 +12,7 @@
   position: absolute !important;
   bottom: -1.9rem;
   left: 44%;
+  transition: box-shadow 0.2s;
 }
 .button:hover {
   background-color: #52ffa8;
@@ -20,7 +21,7 @@
 
 .card {
   width: 32rem;
-  height: 21rem;
+  min-height: 19rem;
   border-radius: 0.625rem !important;
   padding: 3rem 2rem 1.5rem;
   text-align: center;
@@ -46,11 +47,13 @@
   background-repeat: no-repeat;
   background-size: contain;
   margin: auto;
+  padding: 1rem 0;
 }
 
 .heading {
   color: #cee3e9;
   font-size: 1.75rem;
+  margin-bottom: 1rem;
 }
 
 .id {
@@ -88,6 +91,8 @@
   .divider {
     background: url("../public/pattern-divider-mobile.svg");
     background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1.5rem 0;
   }
 }
 
