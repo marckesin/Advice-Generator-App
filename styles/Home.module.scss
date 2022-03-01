@@ -18,7 +18,7 @@ $background-color: hsl(220, 22%, 16%);
   position: absolute !important;
   bottom: -1.9rem;
   left: 44%;
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s !important;
 
   &:hover {
     background-color: $neon-green;
