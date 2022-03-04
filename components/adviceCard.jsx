@@ -19,7 +19,11 @@ export default function AdviceCard({ slip }) {
       <p className={styles.id}>ADVICE #{slip.id}</p>
       <h1 className={styles.heading}> {quote} </h1>
       <div className={styles.divider}></div>
-      <IconButton className={styles.button} onClick={handleClick}>
+      <IconButton
+        className={styles.button}
+        onClick={handleClick}
+        aria-label="Refresh"
+      >
         <Image
           priority
           src="/icon-dice.svg"

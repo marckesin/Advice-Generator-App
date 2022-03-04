@@ -34,10 +34,12 @@ yarn-error.log*
 # vercel
 .vercel
 
-# vscode
-.vscode
-
-# prettier
+*.sketch
+*.fig
+*.xd
+*.map
+.DS_Store
 .prettierrc
 
-.vercel
+# vscode
+.vscode
