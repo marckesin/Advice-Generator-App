@@ -25,6 +25,11 @@
     "type": "git",
     "url": "git+https://github.com/marckesin/Advice-Generator-App.git"
   },
+  "keywords": [
+    "next",
+    "mui",
+    "react"
+  ],
   "author": "Ronaldo",
   "license": "MIT",
   "bugs": {
