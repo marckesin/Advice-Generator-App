@@ -29,7 +29,8 @@
     "next",
     "mui",
     "react",
-    "api"
+    "api",
+    "frontend"
   ],
   "author": "Ronaldo",
   "license": "MIT",
