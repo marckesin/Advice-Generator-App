@@ -30,7 +30,8 @@
     "mui",
     "react",
     "api",
-    "frontend"
+    "frontend",
+    "frontendmentor"
   ],
   "author": "Ronaldo",
   "license": "MIT",
